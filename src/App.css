@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.center-calendar{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+  background: #7c8181
+}
+
+.buttonSchedule{
+  position: absolute;
+  top: 0;
+  right: 5%;
+  margin-right: 40px;
+  margin-top:5px;  
+}
+
+.buttonUser{
+  position: absolute;
+  top: 0;
+  right:7%;
+  margin-top:5px;  
+}
+
+.datepicker{
+  margin-top: 4px;
+}
+
+.pwError{
+ color:red;
+ margin-top:8px;
+}
+
+.bg-login{
+  background-color: #414849;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 50px;
+}
+
+.bg-login:hover{
+   background-color: #616869;
+}
+
+.buttonUserlogout{
+  position: absolute;
+  top: 0;
+  right:1%;
+  margin-top:5px; 
+}
+
+.buttonRequest{
+  position: absolute;
+  top: 0;
+  right:14%;
+  margin-top:5px; 
+}
+
+.buttonApprove{
+    float: right
+}
+
+.tableStyle{
+  width: 100%;
+  margin-top: 5px;
+}
